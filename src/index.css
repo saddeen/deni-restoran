@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap");
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+@layer utilities {
+  .font-jost {
+    font-family: "Jost", sans-serif;
+  }
+
+  .font-lobster {
+    font-family: "Lobster", cursive;
+  }
+  .bg-primary {
+    background-color: #e83667;
+  }
+
+  .bg-secondary {
+    background-color: #bb2c51;
+  }
+
+  .bg-accent {
+    background-color: #21d4b9;
+  }
+
+  .bg-dark {
+    background-color: #303030;
+  }
+
+  .text-primary {
+    color: #e83667;
+  }
+  .hover\:text-primary:hover {
+    color: #e83667;
+  }
+  .text-secondary {
+    color: #bb2c51;
+  }
+
+  .text-accent {
+    color: #21d4b9;
+  }
+
+  .text-dark {
+    color: #303030;
+  }
+}
