@@ -12,7 +12,7 @@ const Tentang = () => {
         </p>
         {/* Gambar */}
         <div className="w-full h-[250px] md:h-[400px] rounded-xl overflow-hidden shadow-lg mb-14">
-          <img src="/public/assets/bg-tentang.jpg" alt="Dapur Deni" className="w-full h-full object-cover" />
+          <img src="/public/assets/bg-tentang.jpg" alt="Dapur Deni" className="w-full h-full object-cover" loading="lazy" />
         </div>
 
         {/* Newsletter Form */}
