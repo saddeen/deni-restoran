@@ -30,7 +30,7 @@ const Hero = () => {
           {/* Image Content */}
           <div className="w-full lg:w-1/2">
             <div>
-              <img src="/public/assets/bg-makanan1.png" alt="Picture Makanan" className="w-full h-full object-cover" loading="lazy" />
+              <img src="/assets/bg-makanan1.png" alt="Picture Makanan" className="w-full h-full object-cover" loading="lazy" />
             </div>
           </div>
         </div>
